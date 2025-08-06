@@ -1,0 +1,277 @@
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100 - 900;
+  font-style: normal;
+}
+
+.Navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 24px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.secondary {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  height: auto;
+  margin-right: 8px;
+}
+
+.Primary {
+  padding: 8px 16px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  height: auto;
+}
+
+.Hero-section {
+  margin-left: 10%;
+  margin-top: 64px;
+}
+
+.Hero-text {
+  font-size: 54px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.Hero-subtext {
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 16px;
+}
+
+.secondary2 {
+  padding: 16px 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  height: auto;
+  margin-right: 8px;
+}
+
+.Primary2 {
+  padding: 16px 24px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #333;
+  color: #fff;
+  height: auto;
+  margin-right: 8px;
+}
+
+.hero-image {
+  margin-top: 40px;
+  margin-bottom: 64px;
+  margin-right: 10%;
+  scale: 1;
+}
+
+.testimonials {
+  margin-top: 40px;
+}
+
+.testimonial-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200;
+  margin-bottom: 16px;
+}
+
+.testimonial-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  gap: 40px;
+}
+
+.tools-section {
+  margin-left: 10%;
+  margin-top: 108px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.tools-header {
+  font-size: 32px;
+  font-weight: 500;
+  margin-right: 20%;
+  line-height: 120%;
+  /* margin-bottom: 8px; */
+}
+
+.tools-body {
+  font-size: 16px;
+  font-weight: 200;
+  margin-right: 20%;
+  line-height: 160%;
+  margin-top: 8px;
+}
+
+.tools-button {
+  margin-top: 8px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.coda-blend {
+  margin-top: 64px;
+  margin-left: 10%;
+  display: flex;
+  gap: 40px;
+}
+
+.header-coda {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.div-highlight1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  padding: 8px 20px;
+  background-color: #dbeffa;
+  border-radius: 90px;
+  margin-bottom: 16px;
+}
+
+.div-highlight2 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 160%;
+  margin-bottom: 16px;
+  padding-left: 20px;
+}
+
+.coda-blend-left {
+  margin-top: 40px;
+}
+
+.forty-team {
+  margin-top: 40px;
+  margin-left: 10%;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.colored {
+  color: #ee5a29;
+}
+
+.features-section {
+  margin-top: 54px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.feature {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 54px;
+  padding-top: 54px;
+}
+
+.writeup-header {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.left-side {
+  display: flex;
+  gap: 16px;
+}
+
+.writeup-body {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 150%;
+  margin-right: 20%;
+  margin-bottom: 16px;
+}
+
+.busy-work {
+  margin-top: 54px;
+  margin-left: 10%;
+}
+
+.busy-work-header {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.busy-work-body {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.frame {
+  width: 30%;
+  height: 264px;
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.frame-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.expo-head {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.expo-body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+}
+
+.bottom {
+  display: flex;
+  gap: 24px;
+  margin-right: 10%;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
