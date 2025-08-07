@@ -1,3 +1,11 @@
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+}
+
 body {
   font-family: "Inter Tight", sans-serif;
   font-optical-sizing: auto;
@@ -274,4 +282,183 @@ a {
   margin-right: 10%;
   margin-top: 24px;
   margin-bottom: 40px;
+}
+
+.Workflow-section {
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 72px;
+  margin-bottom: 54px;
+}
+
+.workflow-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+  margin-right: 10%;
+}
+
+.workflow-body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+  margin-right: 10%;
+  margin-bottom: 16px;
+}
+
+.get-started-section {
+  /* width: 100%; */
+  background-color: #fff6ec;
+  /* margin-left: 10%; */
+  padding-top: 32px;
+  padding-left: 10%;
+  padding-bottom: 32px;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.get-started-header {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.get-started-body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+  margin-right: 10%;
+  margin-bottom: 16px;
+}
+
+.get-started-icons {
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10%;
+}
+
+.icon11 {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+}
+
+.icon11-text,
+.icon11-icon {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 8px;
+}
+
+.icon-text {
+  text-align: center;
+  padding-top: 8px;
+}
+
+.icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.second-layer {
+  display: flex;
+  gap: 40px;
+  margin-top: 64px;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+
+.layer11 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+
+.layer2title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+}
+
+.layer1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+
+  margin-top: 16px;
+}
+
+.second-layer-left {
+  margin-top: 40px;
+}
+
+.tools-button2 {
+  padding: 16px 24px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  background-color: white;
+  color: #333;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+.pinterest-section {
+  margin-left: 10%;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.pinteresst-img {
+  margin-bottom: 24px;
+}
+
+.quote {
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 140%;
+  margin-bottom: 8px;
+  margin-right: 20%;
+}
+
+.collaboration-section {
+  margin-left: 10%;
+  margin-top: 64px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.collaboration-title {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 16px;
+  margin-right: 20%;
+}
+
+.collaboration-body {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 160%;
+  margin-right: 20%;
+  margin-bottom: 16px;
 }
